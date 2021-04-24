@@ -1,5 +1,5 @@
 body {
-    background-color: lightslategray;
+    background-color: #6f2232;
     font-style: normal;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -21,3 +21,24 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: top right;
     margin: 20px;
+}
+.image1{
+    position: relative;
+    align-content: space-around;
+}
+.image2{
+    position: relative;
+    align-content: space-around;
+}
+.image3{
+    position: relative;
+    align-content: space-around;
+}
+.image4{
+    position: relative;
+    align-content: space-around;
+}
+.image5{
+    position: relative;
+    align-content: space-around;
+}
