@@ -6,23 +6,91 @@
     <link href="CSS/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <div class="header"> 
-        <h1> Welcome to Horror Movie Reviews</h1>
-            <p> Browse Our Collection!</p>
-                <div class="maincontainer">
-                    <img id= "mainb-img"src= "images/mainbanner.jpg" alt="dark moon background" style="width:70%;">
-                
-                   
-                
-    <div class="tab">
-        <button class="tablinks" onclick="openPage(event, 'Home Page')">Home Page
-            <a href="file:///Users/kayelias/Documents/GitHub/project1/project%201/index2.html">Login/Sign Up Page</a>
+<style>
+    body{
+    background-color: silver;
+    font-style: initial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: maroon;
+}
+article{
+ font-size: 32px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color: rgb(109, 8, 5);
+text-align: center;
+ position: relative;
+ padding: 10px;
+}
+div secbanner{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    flex-wrap: wrap;
+    position: relative;
+}
+.container{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+}
+.image{
+    flex-basis: 10%;
+    float: left;
+    margin: 0px 300px 50px 0px;
+}
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-left: 10px;
+
+}
+
+
+
+
+</style>
+    <div id="tabs"class="tab">
+        <button class="tablinks">
+             <a href="file:///Users/kayelias/Documents/GitHub/project1/project%201/index.html">Home Page</a>
         </button>
-        <button class="tablinks" onclick="openPage( 'Login/SignUp')">Login<br>Sign Up</button>
-        <button class="tablinks" onclick="openPage('Movie Ratings')">Movie Ratings</button>
-    </div>               
-                
+        <button class="tablinks" >
+<a href="file:///Users/kayelias/Documents/GitHub/project1/project%201/index2.html">Login/SignUp</a>
+    </button>
+    <button class="tablinks">
+        <a href="file:///Users/kayelias/Documents/GitHub/project1/project%201/index3.html"> Movie Ratings Page</a>
+    </button>
     </div>
+<div class="header"> 
+    <h1 id="mainheader"> <ul>Welcome to Horror Movie Reviews</ul></h1>
+        <p> Browse Our Collection!</p>
+            <div class="maincontainer">
+                <img id= "mainb-img"src= "images/mainbanner.jpg" alt="dark moon background" 
+                style="float: left; margin: 0px 80px 80px 0px;" width="800" />
+            </div>
+    <article>
+        ➱ Connect  with other horror fans like you!<br>
+       <br> ➱Share your opions about the movies you've watched<br>
+        <br> ➱Get movie suggestions!
+    </article> <br>         
+    <br>        
+</div class="container">
+    <div  class=image>
+         <img src="images/chatting.jpeg"  width="300" />
+         <img src="images/watching a movie.jpeg" style= "float: right; margin: 0px 300px 0px  1px;"  width="300"/>
+         <img src="images/joinus.jpeg" style="float: left; margin: 0px 500px 50px 0px;" width="300"/>
+    </div>
+     <div class='text"'>
+         <h1> Chat With Other Horror Movie Lovers </h1>
+         <h1> Get movie insparations</h1>
+         <h3>Come Join Us</h3>
+     </div>
+</div>
+     
+
 
             
 

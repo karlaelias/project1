@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <title> Login/Sign Up </title>
+<meta http-equiv="refresh" content="5" url="file:///Users/kayelias/Documents/GitHub/project1/project%201/index3.html"
+/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="CSS/style.css" rel="stylesheet" type="text/css"/>
+</head> 
+<body>
+    <style>
+        body {
+    background-color: silver;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(100, 0, 0);
+    text-align: center;
+        }
+       #signup{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 25px;
+            color: rgb(100, 9, 6);
+       }
+            .tabs{
+                border-color: rgb(rgb(80, 4, 42), rgb(0, 0, 0), rgb(241, 241, 241));
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: rgb(241, 241, 241);
+                align-self: flex-end;
+            }
+            .tablinks{
+             
+                border-spacing: 100px;
+                border:rgb(39, 2, 27), rgb(78, 3, 0);
+                
+            }
+            .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+        
+    </style>
+    <div id="tabs"class="tab">
+        <button class="tablinks" >
+            <a href="file:///Users/kayelias/Documents/GitHub/project1/project%201/index.html"> Home Page </a>
+        </button>
+        <button class="tablinks">
+            <a href="file:///Users/kayelias/Documents/GitHub/project1/project%201/index2.html">Login/Sign Up </a>
+        </button>
+        <button class="tablinks">
+            <a href="file:///Users/kayelias/Documents/GitHub/project1/project%201/index3.html"> Movie Ratings</a>
+        </button>
+    <h1 id="signup"> Sign Up</h1>
+    <form action="Https://formspree.io/f/mzbyzqjl" class="container" method="POST"
+    enctype="multipart/form-data">
+        <label for="email"><b>Enter Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required><br>
+        <label for="text"><b>First Name</b></label>
+            <input type="text" placeholder="Enter Your First Name" name="name" required>
+        <label for="psw"><b>Enter Your Last Name</b></label>
+            <input type="text" placeholder="Enter Your Last Name" name="name" required><br>
+        <label for="text"><b>Create A Password</b></label>
+            <input type="password" placeholder="Create Password" name="psw" required><br>
+        <button type="submit" class="btn">Sign Up</button>
+</body>
+</html>
